@@ -1,0 +1,14 @@
+logging:
+  file:
+    name: ../logs/log_poi_info.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i.gz
+      max-history: 1
+  charset:
+    console: UTF-8
+    file: UTF-8
+
+server:
+  port: 8090

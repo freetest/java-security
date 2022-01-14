@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $.ajax({
+                    url: "http://localhost:8080/csrf/changeMoney?name=Jone&money=100",
+                    type: "get",
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("referer", "http://localhost:8080/csrf/changeMoney");
+                    },
+                    success: function (data) {
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<button>向页面发送 HTTP GET 请求，并获得返回的结果</button>
+
+</body>
+</html>

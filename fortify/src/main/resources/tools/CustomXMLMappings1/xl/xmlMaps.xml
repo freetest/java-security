@@ -1,0 +1,15 @@
+<MapInfo xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" SelectionNamespaces=""><Schema ID="Schema1"><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+			<xsd:redefine schemaLocation="http://127.0.0.1:8090/api/bugApi"></xsd:redefine>
+			<xsd:element name="CORSO" type="TipoCorso"/>
+			<xsd:complexType name="TipoCorso">
+				<xsd:sequence>
+					<xsd:element name="NOME" type="xsd:string"/>
+					<xsd:element name="DOCENTE" type="xsd:string"/>
+					<xsd:element name="TUTOR" type="xsd:string"/>
+					<xsd:element name="CDL" type="xsd:string"/>
+					<xsd:element name="DURATA" type="xsd:string"/>
+					<xsd:element name="ARGOMENTO" type="xsd:string"/>
+					<xsd:element name="PROGETTO" type="xsd:string"/>
+					<xsd:element name="CREDITI" type="xsd:string"/>
+				</xsd:sequence>
+			</xsd:complexType></xsd:schema></Schema><Map ID="1" Name="CORSO_mapping" RootElement="CORSO" SchemaID="Schema1" ShowImportExportValidationErrors="false" AutoFit="true" Append="false" PreserveSortAFLayout="true" PreserveFormat="true"/></MapInfo>
