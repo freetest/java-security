@@ -8,7 +8,7 @@
         <version>2.6.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.zhunongyun.toalibaba.securitystudy</groupId>
+    <groupId>com.zhunongyun.toalibaba.javasecurity</groupId>
     <artifactId>shiro</artifactId>
     <version>0.0.1</version>
     <name>shiro</name>

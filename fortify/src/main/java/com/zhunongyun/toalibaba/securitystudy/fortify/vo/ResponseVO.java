@@ -1,6 +1,6 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.vo;
+package com.zhunongyun.toalibaba.javasecurity.fortify.vo;
 
-import com.zhunongyun.toalibaba.securitystudy.fortify.enums.ResponseCodeEnum;
+import com.zhunongyun.toalibaba.javasecurity.fortify.enums.ResponseCodeEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.enums;
+package com.zhunongyun.toalibaba.javasecurity.fortify.enums;
 
 /**
  * 返回响应码枚举类

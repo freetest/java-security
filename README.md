@@ -1,11 +1,17 @@
-* SQL 注入: 
+记录 java 中的 Fortify 代码安全扫描漏洞 和 组件漏洞修复建议
 
-* XXE : POST localhost:8080/xxe/parse
-![img.png](picture/xxe.png)
+# Fortify 代码安全扫描漏洞
+fortify 目录下记录各种代码安全扫描漏洞修复建议,涉及的漏洞名称如下
+* Path Manipulation
+* Header Manipulation
+* Insecure Randomness
+* Double-Checked Locking
+* SQL Injection
 
-* 任意文件下载: 
 
-* 横向越权: 
+# 组件漏洞
 
-* POI 漏洞: POST  localhost:8080/poi/parse
-![img_1.png](picture/poi.png)
+* log4j
+* shiro
+* poi
+* fastjson

@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zhunongyun.toalibaba</groupId>
-    <artifactId>security-study</artifactId>
+    <artifactId>java-security</artifactId>
     <version>0.0.1</version>
-    <name>security-study</name>
-    <description>security-study</description>
+    <name>java-security</name>
+    <description>java security bug fix</description>
     <packaging>pom</packaging>
 
     <modules>

@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.utils;
+package com.zhunongyun.toalibaba.javasecurity.fortify.utils;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

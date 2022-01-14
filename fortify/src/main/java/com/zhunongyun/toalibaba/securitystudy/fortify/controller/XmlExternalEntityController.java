@@ -1,8 +1,8 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.controller;
+package com.zhunongyun.toalibaba.javasecurity.fortify.controller;
 
 import com.alibaba.fastjson.JSONArray;
-import com.zhunongyun.toalibaba.securitystudy.fortify.common.SaxDemoHandler;
-import com.zhunongyun.toalibaba.securitystudy.fortify.vo.ResponseVO;
+import com.zhunongyun.toalibaba.javasecurity.fortify.common.SaxDemoHandler;
+import com.zhunongyun.toalibaba.javasecurity.fortify.vo.ResponseVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

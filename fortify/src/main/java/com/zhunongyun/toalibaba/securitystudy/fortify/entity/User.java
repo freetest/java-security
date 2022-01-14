@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.entity;
+package com.zhunongyun.toalibaba.javasecurity.fortify.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;

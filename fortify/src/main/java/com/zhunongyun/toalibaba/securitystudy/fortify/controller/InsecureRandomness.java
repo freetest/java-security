@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.controller;
+package com.zhunongyun.toalibaba.javasecurity.fortify.controller;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;

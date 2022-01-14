@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.common;
+package com.zhunongyun.toalibaba.javasecurity.fortify.common;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;

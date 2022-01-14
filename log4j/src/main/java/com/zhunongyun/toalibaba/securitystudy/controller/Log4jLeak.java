@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.controller;
+package com.zhunongyun.toalibaba.javasecurity.controller;
 
 import org.apache.log4j.net.SimpleSocketServer;
 import org.apache.logging.log4j.LogManager;

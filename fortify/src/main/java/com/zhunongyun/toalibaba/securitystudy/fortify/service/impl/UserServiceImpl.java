@@ -1,9 +1,9 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.service.impl;
+package com.zhunongyun.toalibaba.javasecurity.fortify.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.zhunongyun.toalibaba.securitystudy.fortify.entity.User;
-import com.zhunongyun.toalibaba.securitystudy.fortify.mapper.UserMapper;
-import com.zhunongyun.toalibaba.securitystudy.fortify.service.UserService;
+import com.zhunongyun.toalibaba.javasecurity.fortify.entity.User;
+import com.zhunongyun.toalibaba.javasecurity.fortify.mapper.UserMapper;
+import com.zhunongyun.toalibaba.javasecurity.fortify.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

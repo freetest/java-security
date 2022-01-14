@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.shiro.controller;
+package com.zhunongyun.toalibaba.javasecurity.shiro.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.shiro;
+package com.zhunongyun.toalibaba.javasecurity.shiro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

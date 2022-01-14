@@ -1,7 +1,7 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.controller;
+package com.zhunongyun.toalibaba.javasecurity.fortify.controller;
 
-import com.zhunongyun.toalibaba.securitystudy.fortify.enums.ResponseCodeEnum;
-import com.zhunongyun.toalibaba.securitystudy.fortify.vo.ResponseVO;
+import com.zhunongyun.toalibaba.javasecurity.fortify.enums.ResponseCodeEnum;
+import com.zhunongyun.toalibaba.javasecurity.fortify.vo.ResponseVO;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

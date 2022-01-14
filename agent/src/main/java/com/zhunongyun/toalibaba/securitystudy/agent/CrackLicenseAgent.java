@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.agent;
+package com.zhunongyun.toalibaba.javasecurity.agent;
 
 import com.sun.tools.attach.VirtualMachine;
 import com.sun.tools.attach.VirtualMachineDescriptor;
@@ -23,7 +23,7 @@ public class CrackLicenseAgent {
     /**
      * 需要被Hook的类
      */
-    private static final String HOOK_CLASS = "com.zhunongyun.toalibaba.securitystudy.shiro.controller.AgentController";
+    private static final String HOOK_CLASS = "com.zhunongyun.toalibaba.javasecurity.shiro.controller.AgentController";
 
     /**
      * Java Agent模式入口
@@ -149,7 +149,7 @@ public class CrackLicenseAgent {
 
                         // 修改后的类字节码
                         classfileBuffer = ctClass.toBytecode();
-                        File classFilePath = new File(new File(System.getProperty("user.dir"), "shiro/target/classes/com/zhunongyun/toalibaba/securitystudy/shiro/controller"), "AgentController.class");
+                        File classFilePath = new File(new File(System.getProperty("user.dir"), "shiro/target/classes/com/zhunongyun/toalibaba/javasecurity/shiro/controller"), "AgentController.class");
 
                         // 写入修改后的字节码到class文件
                         FileOutputStream fos = new FileOutputStream(classFilePath);

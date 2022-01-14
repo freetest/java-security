@@ -1,7 +1,7 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.mapper;
+package com.zhunongyun.toalibaba.javasecurity.fortify.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zhunongyun.toalibaba.securitystudy.fortify.entity.User;
+import com.zhunongyun.toalibaba.javasecurity.fortify.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Update;

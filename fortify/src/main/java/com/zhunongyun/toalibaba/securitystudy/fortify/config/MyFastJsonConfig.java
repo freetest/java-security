@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.config;
+package com.zhunongyun.toalibaba.javasecurity.fortify.config;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;

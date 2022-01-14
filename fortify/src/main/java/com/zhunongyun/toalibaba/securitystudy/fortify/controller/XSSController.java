@@ -1,6 +1,6 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.controller;
+package com.zhunongyun.toalibaba.javasecurity.fortify.controller;
 
-import com.zhunongyun.toalibaba.securitystudy.fortify.vo.ResponseVO;
+import com.zhunongyun.toalibaba.javasecurity.fortify.vo.ResponseVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 

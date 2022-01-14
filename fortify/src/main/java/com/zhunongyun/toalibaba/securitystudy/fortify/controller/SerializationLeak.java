@@ -1,4 +1,4 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.controller;
+package com.zhunongyun.toalibaba.javasecurity.fortify.controller;
 
 import java.io.File;
 import java.io.FileInputStream;

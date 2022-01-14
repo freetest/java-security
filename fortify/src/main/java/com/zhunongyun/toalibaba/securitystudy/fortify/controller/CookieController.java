@@ -1,8 +1,8 @@
-package com.zhunongyun.toalibaba.securitystudy.fortify.controller;
+package com.zhunongyun.toalibaba.javasecurity.fortify.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.zhunongyun.toalibaba.securitystudy.fortify.entity.User;
-import com.zhunongyun.toalibaba.securitystudy.fortify.service.UserService;
+import com.zhunongyun.toalibaba.javasecurity.fortify.entity.User;
+import com.zhunongyun.toalibaba.javasecurity.fortify.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.Md5Crypt;
 import org.apache.commons.lang3.StringUtils;
