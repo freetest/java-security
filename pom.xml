@@ -13,5 +13,6 @@
         <module>shiro</module>
         <module>fortify</module>
         <module>log4j</module>
+        <module>agent</module>
     </modules>
 </project>
