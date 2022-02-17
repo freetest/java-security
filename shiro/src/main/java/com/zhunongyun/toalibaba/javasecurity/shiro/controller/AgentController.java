@@ -20,6 +20,9 @@ import java.util.concurrent.TimeUnit;
 public class AgentController {
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
+    /**
+     * 在启动中配置 VM 参数 -javaagent:D:\code\idea_workspace\java-security\agent\target\javasec-agent.jar
+     */
     @GetMapping("test")
     public void agentTest() {
         // 设置一个已经过期的License时间
@@ -29,7 +32,6 @@ public class AgentController {
             @Override
             public void run() {
                 while (true) {
-                    String time = "[" + DATE_FORMAT.format(new Date()) + "] ";
                     // 检测license是否已经过期
                     String msg = checkExpiry(expireDate) ? "您的授权已过期，请重新购买授权！" : ("您的授权正常，截止时间为：" + expireDate);
                     System.out.println(msg);

@@ -78,14 +78,14 @@ public class CrackLicenseAgent {
     /**
      * 加载Agent
      *
-     * @param arg  命令参数
+     * @param args  命令参数
      * @param inst Instrumentation
      */
-    private static void loadAgent(String arg, final Instrumentation inst) {
-        // 创建ClassFileTransformer对象
+    private static void loadAgent(String args, final Instrumentation inst) {
+        // 创建 ClassFileTransformer 对象
         ClassFileTransformer classFileTransformer = createClassFileTransformer();
 
-        // 添加自定义的Transformer，第二个参数true表示是否允许Agent Retransform，
+        // 添加自定义的Transformer，第二个参数 true 表示是否允许Agent Retransform，
         // 需配合MANIFEST.MF中的Can-Retransform-Classes: true配置
         inst.addTransformer(classFileTransformer, true);
 
@@ -128,7 +128,7 @@ public class CrackLicenseAgent {
                 // 将目录路径替换成Java类名
                 className = className.replace("/", ".");
 
-                // 只处理com.anbai.sec.agent.CrackLicenseTest类的字节码
+                // 只处理 HOOK_CLASS 配置的类的字节码
                 if (className.equals(HOOK_CLASS)) {
                     try {
                         ClassPool classPool = ClassPool.getDefault();
